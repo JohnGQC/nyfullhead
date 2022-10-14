@@ -8,10 +8,10 @@ import sys
 sys.path.append('../code')
 import argparse
 
-#from scripts.train import TrainRunner
-#from scripts.test import TestRunner
-from train import TrainRunner
-from test import TestRunner
+from myscripts.train import TrainRunner
+from myscripts.test import TestRunner
+#from train import TrainRunner
+#from test import TestRunner
 
 
 if __name__ == '__main__':
