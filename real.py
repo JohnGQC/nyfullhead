@@ -9,7 +9,7 @@ import json
 import numpy as np
 import torch
 import torchvision.transforms.functional as ttf
-import pytorch_lightning as pl
+#import pytorch_lightning as pl
 import PIL.Image as Image
 import argparse
 import os
