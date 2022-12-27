@@ -1,13 +1,13 @@
 #######################################################
 # Things you need to modify
-subject_name='yufeng'
-path='../data/datasets'
+subject_name='biden'
+path='/kaggle/working/IMavatar/datasets'
 video_folder=$path/$subject_name
-video_names='MVI_1810.MOV  MVI_1811.MOV  MVI_1812.MOV  MVI_1814.MOV'
-shape_video='MVI_1810.MOV'
+video_names='biden.mp4'
+shape_video='biden.mp4'
 fps=25
 # Center crop
-crop="1080:1080:420:0"
+crop="720:720:180:0"
 resize=512
 # fx, fy, cx, cy in pixels, need to adjust with resizing and cropping
 fx=1539.67462
