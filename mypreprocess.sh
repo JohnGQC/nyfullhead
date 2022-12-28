@@ -62,7 +62,7 @@ do
   echo $video
   IFS='.' read -r -a array <<< $video
   mkdir -p $video_folder/$subject_name/"${array[0]}"/"deca"
-  python demos/demo_reconstruct.py -i $video_folder/$subject_name/"${array[0]}"/image --savefolder $video_folder/$subject_name/"${array[0]}"/"deca" --saveCode True --saveVis False --sample_step 1  --render_orig False
+  python demos/demo_reconstruct.py -i $video_folder/$subject_name/"${array[0]}"/image --savefolder $video_folder/$subject_name/"${array[0]}"/"deca" --rasterizer_type=pytorch3d --saveCode True --saveVis False --sample_step 1  --render_orig False
 done
 echo "face alignment landmark detector"
 cd $pwd
